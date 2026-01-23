@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiendaMusica SYSTEM "catalogo.dtd">
+<?xml-stylesheet type="text/xsl" href="catalogo.xsl"?>
+
+
+<tiendaMusica>
+
+    <infoTienda>
+        <nombre>Albusa Music</nombre>
+        <direccion>Vitoria-Gasteiz</direccion>
+        <telefono>945123456</telefono>
+        <email>contacto@albusa.com</email>
+    </infoTienda>
+
+      <catalogo>    
+
+        <categoria id="C1" nombre="Discos">
+
+            <producto id="P001" tipo="vinilo">
+                <nombre>Dark Side of the Moon</nombre>
+                <artista>Pink Floyd</artista>
+                <precio>29.99</precio>
+                <descuento>10</descuento>
+                <imagen>img/dark_side.jpg</imagen>
+                <url>https://www.pinkfloyd.com/albums/the-dark-side-of-the-moon/</url>
+            </producto>
+
+            <producto id="P002" tipo="cd">
+                <nombre>Thriller</nombre>
+                <artista>Michael Jackson</artista>
+                <precio>19.99</precio>
+                <descuento>5</descuento>
+                <imagen>img/thriller.jpg</imagen>
+                <url>https://www.shopmichaeljackson.com/products/michael-jackson-thriller-lp</url>
+            </producto>
+
+            <producto id="P003" tipo="vinilo">
+                <nombre>Back in Black</nombre>
+                <artista>AC/DC</artista>
+                <precio>27.99</precio>
+                <descuento>8</descuento>
+                <imagen>img/back_in_black.jpg</imagen>
+                <url>https://www.acdc.com/music/back-in-black/</url>
+            </producto>
+
+        </categoria>
+
+        <categoria id="C2" nombre="Instrumentos">
+
+            <producto id="P004" tipo="guitarra-electrica">
+                <nombre>Stratocaster Player Series</nombre>
+                <artista>Fender</artista>
+                <precio>799.99</precio>
+                <descuento>15</descuento>
+                <imagen>img/fender_stratocaster_player.jpg</imagen>
+                <url>https://es.fender.com/products/player-stratocaster</url>
+            </producto>
+
+            <producto id="P005" tipo="teclado">
+                <nombre>Yamaha P-45</nombre>
+                <artista>Yamaha</artista>
+                <precio>449.99</precio>
+                <descuento>10</descuento>
+                <imagen>img/yamaha_p45.jpg</imagen>
+                <url>https://www.thomann.es/yamaha_p_225_b.htm</url>
+            </producto>
+
+            <producto id="P006" tipo="bajo-electrico">
+                <nombre>Fender Player Precision Bass</nombre>
+                <artista>Fender</artista>
+                <precio>749.99</precio>
+                <descuento>12</descuento>
+                <imagen>img/Standard_Precision_Bass.jpg</imagen>
+                <url>https://es.fender.com/products/standard-precision-bass?variant=50598545522975</url>
+            </producto>
+        </categoria>
+    </catalogo>
+</tiendaMusica>
